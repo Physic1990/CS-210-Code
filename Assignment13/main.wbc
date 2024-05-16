@@ -1,0 +1,68 @@
+% compiler: GNU Prolog 1.4.4
+% file    : main.pl
+
+
+file_name('/home/nira0376/cs210/Assignment13/main.pl').
+
+
+predicate(father/2,1,static,private,monofile,global,1).
+
+
+clause(father(_,_),[
+    proceed]).
+
+
+predicate(mother/2,2,static,private,monofile,global,1).
+
+
+clause(mother(_,_),[
+    proceed]).
+
+
+predicate(grandfather/2,3,static,private,monofile,global,1).
+
+
+clause(grandfather(_,_),[
+    proceed]).
+
+
+predicate(grandmother/2,4,static,private,monofile,global,1).
+
+
+clause(grandmother(_,_),[
+    proceed]).
+
+
+predicate(sister/2,5,static,private,monofile,global,1).
+
+
+clause(sister(_,_),[
+    proceed]).
+
+
+predicate(brother/2,6,static,private,monofile,global,1).
+
+
+clause(brother(_,_),[
+    proceed]).
+
+
+predicate(aunt/2,7,static,private,monofile,global,1).
+
+
+clause(aunt(_,_),[
+    proceed]).
+
+
+predicate(uncle/2,8,static,private,monofile,global,1).
+
+
+clause(uncle(_,_),[
+    proceed]).
+
+
+predicate(ancestor/2,9,static,private,monofile,global,1).
+
+
+clause(ancestor(_,_),[
+    proceed]).

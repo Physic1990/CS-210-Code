@@ -1,0 +1,8 @@
+#if you just want the last component of the directory to appear in your prompt, use:
+PS1='${PWD##*/} $ '
+#For the full pathname of the current directory, with ~ for $HOME
+#PS1='\W $ '
+
+# Submit program
+# # Note I call this from .bashrc, but students call it from .profile
+# alias drbcsubmit="/y/shared/Engineering/cs-drbc/submit"
